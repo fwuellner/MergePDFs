@@ -1,0 +1,52 @@
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.exe
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.deps.json
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.runtimeconfig.json
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.runtimeconfig.dev.json
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.dll
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.pdb
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.csprojAssemblyReference.cache
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\App.g.cs
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs_MarkupCompile.cache
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs_MarkupCompile.lref
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.g.resources
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.AssemblyInfoInputs.cache
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.AssemblyInfo.cs
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.dll
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.pdb
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.genruntimeconfig.cache
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\PdfSharp.Charting.dll
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\PdfSharp.dll
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\de\PdfSharp.Charting.resources.dll
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\de\PdfSharp.resources.dll
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.csproj.CoreCompileInputs.cache
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.csproj.CopyComplete
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\PDFViewer.g.cs
+E:\Wuellner\Programmierung\Visual Studio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\PDFViewer.baml
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.exe
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.deps.json
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.runtimeconfig.json
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.runtimeconfig.dev.json
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.dll
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\MergePDFs.pdb
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\PdfSharp.Charting.dll
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\PdfSharp.dll
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\de\PdfSharp.Charting.resources.dll
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\bin\Debug\netcoreapp3.1\de\PdfSharp.resources.dll
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.csprojAssemblyReference.cache
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\PDFViewer.g.cs
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\App.g.cs
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs_MarkupCompile.cache
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs_MarkupCompile.lref
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\PDFViewer.baml
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.g.resources
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.csproj.CoreCompileInputs.cache
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.AssemblyInfoInputs.cache
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.AssemblyInfo.cs
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.csproj.CopyComplete
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.dll
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.pdb
+E:\Wuellner\Programmierung\VisualStudio\MergePDFs\MergePDFs\obj\Debug\netcoreapp3.1\MergePDFs.genruntimeconfig.cache

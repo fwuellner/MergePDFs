@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "HP1Sh0aeehwtDIzE6TsCMU5jtOPExOZH4Cn3Q+GSZuteCtZVFK9ijLNTSuF3G+HKUyGlk4PrRycenWZPA5XbnA==",
+  "success": true,
+  "projectFilePath": "E:\\Wuellner\\Programmierung\\VisualStudio\\MergePDFs\\MergePDFs\\MergePDFs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\flori\\.nuget\\packages\\pdfsharp\\1.50.5147\\pdfsharp.1.50.5147.nupkg.sha512",
+    "C:\\Users\\flori\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Das Paket \"PDFsharp 1.50.5147\" wurde nicht mit dem Projektzielframework \".NETCoreApp,Version=v3.1\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "libraryId": "PDFsharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

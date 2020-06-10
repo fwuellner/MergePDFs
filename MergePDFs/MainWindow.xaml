@@ -1,0 +1,98 @@
+﻿<Window x:Class="MergePDFs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MergePDFs"
+        mc:Ignorable="d"
+        Title="PDF-Merge-Tool" Height="500" Width="800"
+        Closing="OnCloseClick">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Style.Setters>
+                <Setter Property="Height" Value="20"/>
+                <Setter Property="Width" Value="100"/>
+                <Setter Property="Height" Value="50"/>
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="FontStyle" Value="Normal"/>
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="FontWeight" Value="DemiBold"/>
+                <Setter Property="Margin" Value="10"/>
+            </Style.Setters>
+        </Style>
+
+        <Style TargetType="DataGrid">
+            <Style.Setters>
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="IsReadOnly" Value="True"/>
+                <Setter Property="IsSynchronizedWithCurrentItem" Value="True"/>
+                <Setter Property="CanUserSortColumns" Value="False"/>
+                <Setter Property="AutoGenerateColumns" Value="False"/>
+                <Setter Property="Margin" Value="50,25,25,40"/>
+            </Style.Setters>
+        </Style>
+
+        <Style TargetType="DataGridCell">
+            <Style.Setters>
+                <Setter Property="Height" Value="30"/>
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="Width" Value="{Binding ElementName=column1, Path=Width}"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+            </Style.Setters>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Blue"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="Blue"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="False">
+                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        
+        <Style TargetType="DataGridColumnHeader">
+            <Style.Setters>
+                <Setter Property="Height" Value="40"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontWeight" Value="DemiBold"/>
+                <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            </Style.Setters>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid x:Name="dg1" Grid.Column="0" ItemsSource="{Binding Path=AllPDFData}">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="column1" Header="Filenames" Width="1*" Binding="{Binding Path=Filename}"/>
+                <DataGridTemplateColumn Visibility="Hidden"/>
+            </DataGrid.Columns>
+            <DataGrid.InputBindings>
+                <MouseBinding 
+                    Gesture="LeftDoubleClick" 
+                    Command="{Binding LeftDoubleClickCommand}" 
+                    CommandParameter="{Binding ElementName=dg1, Path=SelectedItem}"/>
+            </DataGrid.InputBindings>
+        </DataGrid>
+        
+        <StackPanel Orientation="Vertical" Grid.Column="1" Margin="10">
+            <Button x:Name="btn_add" Content="Add PDF" Command="{Binding AddCommand}"/>
+            <Button x:Name="btn_up" Content="Move Up" Command="{Binding MoveUpCommand}" CommandParameter="{Binding ElementName=dg1, Path=SelectedIndex}"/>
+            <Button x:Name="btn_down" Content="Move Down" Command="{Binding MoveDownCommand}" CommandParameter="{Binding ElementName=dg1, Path=SelectedIndex}"/>
+            <Button x:Name="btn_del" Content="Delete" Command="{Binding DeleteCommand}" CommandParameter="{Binding ElementName=dg1, Path=SelectedItem}"/>
+            <Button x:Name="btn_del_all" Content="Delete All" Command="{Binding ResetCommand}"/>
+            <Button x:Name="btn_merge" Content="Merge PDFs" Command="{Binding MergeCommand}"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
