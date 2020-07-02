@@ -12,13 +12,13 @@ Free open source PDF Merge Tool with integrated PDF viewer for Windows 10, devel
 
 Add, sort, merge, and save merged PDF files. Additionally, open added PDF files in integrated PDF viewer with left double click on marked table item.
 
-*Software Architecture Pattern:*
-
-Model-View-ViewModel-Pattern (MVVM)
-
 *Software Development Stack:*
 
 Windows 10, Visual Studio 2019, .NET Core 3.1, C#, WPF, XAML, PdfSharp
+
+*Software Architectural Pattern:*
+
+Model-View-ViewModel-Pattern (MVVM)
 
 *Installation and Use*
 
