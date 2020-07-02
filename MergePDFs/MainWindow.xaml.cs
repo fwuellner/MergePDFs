@@ -21,7 +21,7 @@ namespace MergePDFs
             if (result == MessageBoxResult.Yes)
             {
                 e.Cancel = false;
-                //App.Current.Shutdown();
+                App.Current.Shutdown();
             }
             else if (result == MessageBoxResult.No)
             {
