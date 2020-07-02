@@ -20,7 +20,7 @@ Windows 10, Visual Studio 2019, .NET Core 3.1, C#, WPF, XAML, PdfSharp
 
 Model-View-ViewModel-Pattern (MVVM)
 
-*Installation and Use*
+*Installation and Use:*
 
 If neccessary, please download the .NET Core 3.1 Runtime (e.g., https://dotnet.microsoft.com/download/dotnet-core/current/runtime) and install to use this tool.
 
