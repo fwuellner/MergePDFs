@@ -16,6 +16,14 @@ Add, sort, merge, and save merged PDF files. Additionally, open added PDF files 
 
 Model-View-ViewModel-Pattern (MVVM)
 
+*Development stack:*
+
+Windows 10, Visual Studio 2019, .NET Core 3.1, C#, WPF, XAML, PdfSharp
+
+*Installation and Use*
+
+If neccessary, please download the .NET Core 3.1 Runtime (e.g., https://dotnet.microsoft.com/download/dotnet-core/current/runtime) and install to use this tool.
+
 *Developer:* 
 
 M.Sc. Florian Wuellner
